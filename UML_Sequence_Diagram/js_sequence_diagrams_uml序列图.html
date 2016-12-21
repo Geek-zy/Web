@@ -1,0 +1,41 @@
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       
+<script src="jQuery-3.1.1/jquery.min.js">
+</script>
+
+ </head>
+<body>
+<script src="JS-Sequence-Diagrams_Geek/raphael-min.js"></script>
+<script src="JS-Sequence-Diagrams_Geek/underscore-min.js"></script>
+<script src="JS-Sequence-Diagrams_Geek/sequence-diagram-min.js"></script>
+
+
+
+<hr>
+<div id="flow">放置流程图的空间</div>
+
+<script>	
+  	var diagram = Diagram.parse("Alice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!\n");
+  	diagram.drawSVG("flow", {theme: 'hand'});	
+  	//diagram.drawSVG("flow", {theme: 'simple'});
+</script>
+
+
+
+<div class="diagram">
+
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+</div>
+<script>
+//$(".diagram").sequenceDiagram({theme: 'hand'});
+$(".diagram").sequenceDiagram({theme: 'simple'});
+
+</script>
+
+
+</body>
+</html>
