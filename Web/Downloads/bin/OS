@@ -1,0 +1,14 @@
+|序号|软件编号|软件名称|软件版本|软件简介|运行环境|教程地址|下载地址|图标地址|备注1|备注2|
+1 (0001,0001) Ubuntu 14.04 最好用的个人Linux操作系统 Linux http://www.baidu.com package/OS/ubuntu-14.04-desktop-amd64.iso ico/panda.png
+2 (0001,0001) Ubuntu 16.04 最好用的个人Linux操作系统 Linux http://www.baidu.com package/OS/ubuntu-16.04-desktop-amd64.iso ico/panda.png
+2 (0001,0001) Ubuntu 17.04 最好用的个人Linux操作系统 Linux http://www.baidu.com package/OS/ubuntu-17.04-desktop-amd64.iso ico/panda.png
+3 (0001,0001) Ubuntu-Server 14.04 最好用的个人Linux操作系统 Linux http://www.baidu.com package/OS/ubuntu-14.04.3-server-amd64.iso ico/panda.png
+4 (0001,0001) CentOS 6.6 最好用的企业Linux操作系统 Linux http://www.baidu.com package/OS/CentOS-6.6-x86_64-bin-DVD1.iso ico/panda.png
+5 (0001,0001) CentOS 6.7 最好用的企业Linux操作系统 Linux http://www.baidu.com package/OS/CentOS-6.7-x86_64-bin-DVD1.iso ico/panda.png
+6 (0001,0001) CentOS 7.0 最好用的企业Linux操作系统 Linux http://www.baidu.com package/OS/CentOS-7-x86_64-DVD-1511.iso ico/panda.png
+7 (0001,0001) openSUSE 12.11 Linux操作系统 Linux http://www.baidu.com package/OS/openSUSE-13.2-DVD-x86_64.iso ico/panda.png
+7 (0001,0001) openSUSE 11.3 Linux操作系统 Linux http://www.baidu.com package/OS/openSUSE-11.3-DVD-x86_64.iso ico/panda.png
+8 (0001,0001) Windows7 安装版 Windows7操作系统 Windows http://www.baidu.com package/OS/cn_windows_7_ultimate_x64_dvd_x15-66043.iso ico/panda.png
+9 (0001,0001) Windows7 Gost版 Windows7操作系统 Windows http://www.baidu.com package/OS/YLMF_GhostWin7_SP1_X64_V2014_03.iso ico/panda.png
+10 (0001,0001) Windows10 Gost版 Windows10操作系统 Windows http://www.baidu.com package/OS/YLMF_Win10x64.GHO ico/panda.png
+11 (0001,0001) Vaket U盘版 U盘操作系统 Windows http://www.baidu.com package/OS/vaket系统.rar ico/panda.png

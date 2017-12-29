@@ -1,0 +1,20 @@
+|序号|软件编号|软件名称|软件版本|软件简介|运行环境|教程地址|下载地址|图标地址|备注1|备注2|
+1 (0001,0001) BOA服务器 0.94.14 BOA服务器是一个小巧高效的web服务器，是一个运行于unix或linux下的，支持CGI的、适合于嵌入式系统的单任务的http服务器，源代码开放、性能高。 Linux http://www.baidu.com package/OSS/boa-0.94.14rc21.tar.gz ico/panda.png
+2 (0001,0001) Keepalived 1.2.23 俗称双机热备，Keepalived的作用是检测服务器的状态，如果有一台web服务器死机，或工作出现故障，Keepalived将检测到，并将有故障的服务器从系统中剔除，同时使用其他服务器代替该服务器的工作，当服务器工作正常后Keepalived自动将服务器加入到服务器群中，这些工作全部自动完成，不需要人工干涉，需要人工做的只是修复故障的服务器。 Linux http://www.baidu.com package/OSS/keepalived-1.2.23.tar.gz ico/panda.png
+3 (0001,0001) Mediawiki 1.23.14 MediaWiki全球最著名的开源wiki程序，运行于PHP+MySQL环境。MediaWiki从2002年2月25日被作为维基百科全书的系统软件，并有大量其他应用实例。MediaWiki的开发得到维基媒体基金会的支持。 Linux http://www.baidu.com package/OSS/mediawiki-1.23.14.tar.gz ico/panda.png
+3 (0001,0001) Inotify-tools 3.14 Inotify是一个Linux特性，它监控文件系统操作，比如读取、写入和创建。Inotify反应灵敏，用法非常简单，并且比cron任务的繁忙轮询高效得多。学习如何将inotify集成到您的应用程序中，并发现一组可用来进一步自动化系统治理的命令行工具。 Linux http://www.baidu.com package/OSS/inotify-tools-3.14.tar.gz ico/panda.png
+1 1 Nginx 1.11.2 Nginx("enginex")是一个高性能的HTTP和反向代理服务器，也是一个IMAP/POP3/SMTP服务器。Nginx是由IgorSysoev为俄罗斯访问量第二的Rambler.ru站点开发的，第一个公开版本0.1.0发布于2004年10月4日。其将源代码以类BSD许可证的形式发布，因它的稳定性、丰富的功能集、示例配置文件和低系统资源的消耗而闻名。 Linux http://www.baidu.com package/OSS/nginx-1.11.2.tar.gz ico/panda.png
+1 1 Redis 3.2.0 Redis是一个开源的使用ANSI-C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。从2010年3月15日起，Redis的开发工作由VMware主持。从2013年5月开始，Redis的开发由Pivotal赞助。 Linux http://www.baidu.com package/OSS/redis-3.2.0.tar.gz ico/panda.png
+1 1 SSDB 1.9.3 一个高性能的支持丰富数据结构的NoSQL数据库,用于替代Redis。 Linux http://www.baidu.com package/OSS/ssdb-master.zip ico/panda.png
+1 1 MetInfo 5.3 MetInfo采用PHP+Mysql架构,符合企业网站SEO优化理念、免费开源、功能全面、安全稳定,支持响应式展示并且使用起来极其简单的企业建站cms。 Linux http://www.baidu.com package/OSS/MetInfo5.3.zip ico/panda.png
+1 1 HDwiki 5.1 互动维客开源系统（HDwiki）作为中国第一家拥有自主知识产权的中文维基（Wiki）系统，由互动在线（北京）科技有限公司于2006年11月28日正式推出，力争为给国内外众多的维基（Wiki）爱好者提供一个免费、易用、功能强大的维基（Wiki）建站系统。HDwiki的推出，填补了中文维基（Wiki)的空白。 Linux http://www.baidu.com package/OSS/HDwiki-5.1.zip ico/panda.png
+1 1 Moodle 3.1 Moodle（ModularObject-OrientedDynamicLearningEnvironment）是一个用于制作网络课程或网站的软件包。它是一个全球性的开发项目，用以支持社会建构主义（socialconstructionist）的教育框架。Moodle是一个自由的开源软件（在GNU公共许可协议下），也就是说Moodle是有版权的，但是你有额外的自由。你可以自由地复制、使用或者修改Moodle，前提条件是你同意：为他人提供代码，没有修改或删除原有的版权和许可，以及将相似的版权应用于衍生的作品。 Linux http://www.baidu.com package/OSS/moodle-latest-31.tgz ico/panda.png
+1 1 Moodle-汉化包 3.1 用于汉化Moodle的官方汉化包。 Linux http://www.baidu.com package/OSS/zh_cn.zip ico/panda.png
+1 1 GitLab 8.6.1 GitLab是一个用于仓库管理系统的开源项目。 Linux http://www.baidu.com package/OSS/gitlab_安装包及汉化.zip ico/panda.png
+1 1 Visual_Paradigm X86 时序图-思维导图 Linux http://www.baidu.com package/OSS/Visual_Paradigm_CE_Linux32.zip ico/panda.png
+1 1 Visual_Paradigm X64 时序图-思维导图 Linux http://www.baidu.com package/OSS/Visual_Paradigm_14_linux64.tar.gz ico/panda.png
+1 1 hosts 1.0 host是一个谷歌翻墙的文件，将它放置到/etc下即可。 Linux http://www.baidu.com package/OSS/hosts.zip ico/panda.png
+1 1 Vim_IDE 1.0 Vim_IDE是将Vim编辑器改装成一个功能强大，完善的IDE编程环境 Linux http://www.baidu.com package/OSS/Vim_IDE-1.0.tar.gz ico/panda.png
+1 1 Vim_IDE 2.0 Vim_IDE是将Vim编辑器改装成一个功能强大，完善的IDE编程环境 Linux http://www.baidu.com package/OSS/Vim_IDE-2.0.tar.gz ico/panda.png
+1 1 zabbix 3.2.1 zabbix是一个基于WEB界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案。 Linux http://www.baidu.com package/OSS/zabbix-3.2.1.tar.gz ico/panda.png
+1 1 sshpass 1.06 ssh登陆不能在命令行中指定密码，sshpass的出现，解决了这一问题。它允许你用-p参数指定明文密码，然后直接登录远程服务器，它支持密码从命令行、文件、环境变量中读取。 Linux http://blog.csdn.net/yilovexing/article/details/54694169 package/OSS/sshpass-1.06.tar.gz ico/panda.png

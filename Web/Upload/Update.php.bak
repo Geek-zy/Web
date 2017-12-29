@@ -1,0 +1,76 @@
+<?php 
+
+include ("head.php");
+include ("Select.php");
+
+$Data = Mysql_Select("");
+//print_r($Data);
+echo $Data[0]['Name'];
+
+echo 
+	"<form action='File_Upload.php' method='post' enctype='multipart/form-data'>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label >软件名称:</label>" . 
+	"<input type='text' name='fname' data-clear-btn='true' placeholder='请输入软件名称'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label>软件版本:</label>" . 
+	"<input type='text' name='Version' data-clear-btn='true' placeholder='请输入软件版本'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<fieldset data-role='fieldcontain'>" . 
+	"<label>软件类别:</label>" . 
+	"<select>" . 
+	"<option value='OS'>操作系统</option>" . 
+	"<option value='Book'>编程书籍</option>" . 
+	"<option selected value='IDE'>开发环境</option>" . 
+	"<option value='IDE_Tool'>开发工具</option>" . 
+	"<option value='Source_Code'>源码下载</option>" . 
+	"<option value='OSS'>开源软件</option>" . 
+	"<option value='Mac'>Mac软件</option>" . 
+	"<option value='Linux'>Linux软件</option>" . 
+	"<option value='Windows'>Windows</option>" . 
+	"</select>" . 
+	"</fieldset>" . 
+	"<fieldset data-role='fieldcontain'>" . 
+	"<label for='Windows'>运行环境:</label>" . 
+	"<select name='Windows' id='Windows'>" . 
+	"<option value='Windows'>Windows</option>" . 
+	"<option value='Linux'>Linux</option>" . 
+	"<option value='Mac'>Mac</option>" . 
+	"<option value='Web'>Web</option>" . 
+	"<option value='IOS'>IOS</option>" . 
+	"<option value='Android'>Android</option>" . 
+	"</select>" . 
+	"</fieldset></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Image'>上传图标:</label>" . 
+	"<input type='file' name='Image' id='Image'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Data'>上传软件:</label>" . 
+	"<input type='file' name='Data' id='Data'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Tag'>软件编号:</label>" . 
+	"<input type='text' name='Tag' id='Tag' data-clear-btn='true' placeholder='请输入软件编号'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Course_URL'>教程地址:</label>" . 
+	"<input type='text' name='Course_URL' id='Course_URL' data-clear-btn='true' placeholder='请输入教程地址'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label 'Download_URL'>下载地址:</label>" . 
+	"<input type='text' name='Download_URL' id='Download_URL' data-clear-btn='true' placeholder='上传软件自动生成下载地址'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Image_URL'>图标地址:</label>" . 
+	"<input type='text' name='Image_URL' id='Image_URL' data-clear-btn='true' placeholder='上传图标自动生成图标地址'></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Introduce'>软件简介:</label>" . 
+	"<textarea name='Introduce' id='Introduce' placeholder='请输入软件简介内容'></textarea></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Remarks_1'>备 注 1:</label>" . 
+	"<textarea name='Remarks_1' id='Remarks_1' placeholder='备注1内容'></textarea></div>" . 
+	"<div class='ui-field-contain'>" . 
+	"<label for='Remarks_2'>备 注 2:</label>" . 
+	"<textarea name='Remarks_2' id='Remarks_2' placeholder='备注2内容'></textarea></div>" . 
+	"<div data-role='controlgroup' data-type='horizontal'>" . 
+//	"<input type='submit' name='submit' value='提 交'>" . 
+	"<input type='reset'  value='重 置'>" . 
+	"<a href='../Web' class='ui-btn'>返 回</a></div>" . 
+	"</form></div></body></html>";
+?> 
